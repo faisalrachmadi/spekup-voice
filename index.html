@@ -197,8 +197,8 @@
       position: relative;
       z-index: 1;
       display: grid;
-      grid-template-columns: minmax(0, 1.04fr) minmax(320px, 0.76fr);
-      gap: 44px;
+      grid-template-columns: minmax(0, 0.96fr) minmax(420px, 0.92fr);
+      gap: 34px;
       align-items: center;
     }
 
@@ -293,11 +293,14 @@
 
     .flyer-card {
       position: relative;
-      padding: 14px;
-      border-radius: 36px;
-      background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(255, 227, 214, 0.75));
-      box-shadow: var(--shadow);
-      transform: rotate(1.5deg);
+      justify-self: end;
+      width: min(100%, 620px);
+      padding: 18px;
+      border-radius: 40px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 227, 214, 0.82));
+      box-shadow: 0 30px 90px rgba(89, 34, 12, 0.22);
+      transform: rotate(0.85deg) scale(1.06);
+      transform-origin: center;
     }
 
     .flyer-card::before {
@@ -316,8 +319,9 @@
     }
 
     .flyer-card img {
-      border-radius: 26px;
-      box-shadow: 0 20px 50px rgba(89, 34, 12, 0.18);
+      width: 100%;
+      border-radius: 30px;
+      box-shadow: 0 22px 56px rgba(89, 34, 12, 0.2);
     }
 
     section {
@@ -626,8 +630,9 @@
       }
 
       .flyer-card {
-        max-width: 520px;
-        margin: 16px auto 0;
+        max-width: 640px;
+        margin: 24px auto 0;
+        transform: none;
       }
 
       .event-strip,
@@ -785,16 +790,16 @@
           <div class="highlight">
             <h2 id="benefit-title">Yang peserta dapatkan</h2>
             <p>
-              Bukan seminar duduk diam. Peserta akan belajar, latihan, tampil singkat, menerima feedback, dan pulang dengan bekal evaluasi untuk terus berkembang.
+              Benefit acara kami rapikan supaya benar-benar sesuai penawaran terbaru: peserta pulang bukan cuma lebih berani tampil, tapi juga bawa materi, sertifikat, dan arahan latihan yang jelas.
             </p>
 
             <div class="benefit-grid">
               <div class="benefit-item"><span>✓</span>Sesi belajar 1 hari</div>
-              <div class="benefit-item"><span>✓</span>Souvenir: totebag, tumbler & notebook</div>
+              <div class="benefit-item"><span>✓</span>Modul & handout</div>
               <div class="benefit-item"><span>✓</span>Makan siang + snack</div>
               <div class="benefit-item"><span>✓</span>E-sertifikat</div>
               <div class="benefit-item"><span>✓</span>Praktik langsung</div>
-              <div class="benefit-item"><span>✓</span>Feedback mentor</div>
+              <div class="benefit-item"><span>✓</span>Feedback personal</div>
             </div>
           </div>
         </div>
@@ -857,7 +862,7 @@
               <div class="price">Rp 500K</div>
               <p>Harga utama setelah kuota Early Bird habis.</p>
               <ul>
-                <li>Totebag, tumbler, notebook</li>
+                <li>Modul & handout</li>
                 <li>E-sertifikat</li>
                 <li>Konfirmasi via admin WA</li>
               </ul>
@@ -914,7 +919,7 @@
             </details>
             <details>
               <summary>Apa peserta mendapat sertifikat?</summary>
-              <p>Ya. Peserta mendapat e-sertifikat, souvenir berupa totebag, tumbler, dan notebook, konsumsi, praktik langsung, serta feedback dari mentor.</p>
+              <p>Ya. Peserta mendapat modul & handout, e-sertifikat, konsumsi, praktik langsung, dan feedback personal dari mentor.</p>
             </details>
           </div>
         </div>
